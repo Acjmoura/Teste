@@ -44,5 +44,5 @@
 
 #-y -yc -yx -clientlog c:\sistemas\tmp\erro.txt -logginglevel 4 -logentrytypes DB.Connects,4GLTrace:2,4GLMessages
 
-
+Qualquer mudança
 ##
