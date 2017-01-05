@@ -1,0 +1,48 @@
+#***************************************************************************
+# Coimex Internacional S.A - Tecnologia da Informação (1999)
+#
+# File..................: emscip.pf
+# Description...........: Session Parameter File
+# Created by............: Installation Process
+# Creation Date.........: 9-3-1998 09:38:39
+#***************************************************************************
+#-mmax 2048
+-mmax 16384
+-D 500
+-l 20480
+-inp 32000
+-stsh 31
+-s 1024
+-tmpbsize 8
+-numsep 46
+-numdec 44
+
+-TB 31
+-TM 32
+-d dmy
+-yy 1950
+-E
+# -Bt 256
+#-Bt 4096
+-Bt 20480
+-Mr 2048
+-Mm 8192
+#-tok 1600
+-cpstream ibm850
+-cpterm iso8859-1
+-q
+-h 60
+-evtlevel brief
+-T C:\sistemas\tmp
+-tok 5120
+-nb 255
+
+-proxyhost proxy.cisa.intra  
+-proxyport 8080 
+-proxyUserid svc_webservice  
+-proxyPassword )W3b__srvc$2k12
+
+#-y -yc -yx -clientlog c:\sistemas\tmp\erro.txt -logginglevel 4 -logentrytypes DB.Connects,4GLTrace:2,4GLMessages
+
+
+##
